@@ -9,7 +9,7 @@ function Card({ nombreP, Precio, descripcion, imagen }) {
         <img
           src={imagen}
           alt={nombreP}
-          className="card-img-top mx-auto mt-3"
+          className="card-img-top mx-auto mt-3 rounded-circle"
           style={{ width: "70%", objectFit: "contain" }} 
         />
         <div className="card-body text-center">
