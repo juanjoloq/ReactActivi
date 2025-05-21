@@ -13,25 +13,24 @@ function App() {
           <Routes>
               <Route path="/" element={<ResumenCurso 
                 NombreCurso="ADSO"
-                Duracion="3Semanas"
+                FechaInicio="2025-04-06"
                 Instructor="Guillo"
               />}></Route>
               <Route path="/servicios" element={<Card 
-                nombreP="juan" 
-                imagen="https://unavatar.io/sindresorhus@gmail.com"
+                nombreP="BBNO" 
+                imagen="https://unavatar.io/juanjoloq"
                 Precio="10.000"
-                descripcion="Maniac"
+                descripcion="Consola ultimo modelo"
               />}></Route>
               <Route path="/acercade" element={<FichaAlumno
-                nombre="Juan"
+                nombre="Juan Jose"
                 programa="ADSO"
                 ficha="2959811"
                 jornada="Mañana"
               />}></Route>
               <Route path="/contacto" element={<FormularioX />}></Route>
               <Route path='/noticia' element={<NoticiaDestacada 
-                titulo="TIEMPO"
-                fecha="2020"
+                titulo="Se paso de caliente"
                 contenido="QUEMADO HOMBRE MUERTO"
               />}></Route>
           </Routes>
